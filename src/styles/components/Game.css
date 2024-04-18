@@ -1,0 +1,79 @@
+.headcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  background: rgba(245, 245, 245, 0.2);
+  border-radius: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 4vw;
+  color: teal;
+  margin: 15px;
+}
+
+.scintiller {
+  animation: scintillement 4s ease infinite;
+}
+
+@keyframes scintillement {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: 20px 0 20px 0;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgb(1, 13, 10);
+  text-align: center;
+  font-size: 24px;
+}
+
+td:hover {
+  background-color: teal;
+}
+
+#message {
+  margin: 20px;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+button {
+  border: 2px solid teal;
+  font-family: "Oswald", sans-serif;
+  background: rgba(164, 210, 205, 0.3);
+  color: teal;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  margin: 20px 0 50px 0;
+  font-size: 1.1rem;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: teal;
+  color: rgba(164, 210, 205, 0.783);
+  border-radius: 50px;
+}

@@ -1,0 +1,4 @@
+@import "./settings";
+@import "./components/Navigation";
+@import "./components/Game";
+@import "./components/Register.css";
